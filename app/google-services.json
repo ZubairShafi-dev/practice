@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012905253385",
+    "project_id": "practice-java-46e89",
+    "storage_bucket": "practice-java-46e89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012905253385:android:eea8303eb5ff2cf50476d8",
+        "android_client_info": {
+          "package_name": "com.codingempires.practice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxCwQlFK2N1asaxNDxEW4r5AtwsZcCeVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
