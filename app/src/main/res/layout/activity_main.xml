@@ -1,61 +1,59 @@
 <!-- res/layout/activity_login.xml -->
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/gradiant"
-    android:padding="16dp"
     tools:context=".MainActivity">
+    
+    
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Login Here"
+    android:textSize="35dp"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:layout_marginTop="30dp"
+    />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="Enter Your Email"
+      android:background="@drawable/stroke"
+      android:layout_margin="20dp"
+      android:padding="10dp"
+      android:drawableStart="@drawable/baseline_email_24"
+      android:drawablePadding="12dp"
+    />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="Enter Your Email"
+      android:background="@drawable/stroke"
+      android:layout_margin="20dp"
+      android:padding="10dp"
+      android:drawableStart="@drawable/baseline_lock_24"
+      android:drawablePadding="12dp"
+      />
 
-    <EditText
-        android:id="@+id/editTextUsername"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="24dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
-        android:background="@drawable/stroke"
-        android:hint="Username"
-        android:inputType="textPersonName"
-        android:textSize="16sp"
-        android:fontFamily="@font/montserrat_regular" />
-
-    <EditText
-        android:id="@+id/editTextLPassword"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_below="@id/editTextUsername"
-        android:layout_marginTop="16dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
-        android:background="@drawable/stroke"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textSize="16sp"
-        android:fontFamily="@font/montserrat_regular" />
-
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_below="@id/editTextLPassword"
-        android:layout_marginTop="24dp"
-        android:text="Login"
-        android:textSize="18sp"
-        android:background="@drawable/stroke"
-        android:fontFamily="@font/montserrat_extra_bold" />
-
-    <TextView
-        android:id="@+id/tvSignUpLink"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnLogin"
-        android:layout_marginTop="16dp"
-        android:text="Don't have an account? Sign up here."
-        android:textSize="14sp"
-        android:textColor="#FF4081"
-        android:fontFamily="@font/montserrat_regular" />
-
-</RelativeLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Forget password"
+      android:gravity="right"
+      android:layout_marginRight="20dp"
+      android:textColor="@color/blue"
+    />
+  <Button
+      android:layout_width="180dp"
+      android:layout_height="60dp"
+      android:layout_marginLeft="180dp"
+      android:layout_marginTop="20dp"
+      android:text="cylindrical"
+      android:textColor="#3e2723"
+      android:background="@drawable/custom_button"/>
+</LinearLayout>

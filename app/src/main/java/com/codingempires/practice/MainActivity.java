@@ -14,25 +14,29 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class MainActivity extends AppCompatActivity {
-    TextView sinuplink;
+   /* TextView sinuplink;
     EditText email;
     EditText password;
     Button logInBtn;
     SharedPref mypref;
     FirebaseFirestore firestore;
-
+*/
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sinuplink  = findViewById(R.id.tvSignUpLink);
+    }
+}
+      /*  sinuplink  = findViewById(R.id.tvSignUpLink);
         email= findViewById(R.id.editTextUsername);
         password= findViewById(R.id.editTextLPassword);
-        logInBtn= findViewById(R.id.btnLogin);
+        logInBtn= findViewById(R.id.btnLogin);*/
 
 
-        firestore = FirebaseFirestore.getInstance();
+       /* firestore = FirebaseFirestore.getInstance();
 
 
 
@@ -87,5 +91,4 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
         return false;
-    }
-}
+    }*/
