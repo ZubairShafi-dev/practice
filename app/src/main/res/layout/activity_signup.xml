@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradiant"
     android:padding="16dp"
     tools:context=".Activity_Signup">
 
@@ -21,6 +20,8 @@
         android:hint="Full Name"
         android:inputType="textPersonName"
         android:textSize="16sp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="10"
         android:fontFamily="@font/montserrat_regular" />
 
     <EditText
@@ -47,9 +48,24 @@
         android:paddingEnd="12dp"
         android:background="@drawable/stroke"
         android:hint="Password"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         android:textSize="16sp"
         android:fontFamily="@font/montserrat_regular" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnSignUp"
